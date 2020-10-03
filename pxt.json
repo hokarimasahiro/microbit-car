@@ -1,0 +1,35 @@
+{
+    "name": "microbit-car",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "pxt-watchfont": "github:hokarimasahiro/pxt-watchfont#572ae2ddd7f597dc65081544432e18b706bec4c4",
+        "pxt-levelmeter": "github:hokarimasahiro/pxt-levelmeter#3e260af02c101946891f6a26cdc9d88cc1923b35",
+        "pxt-neopixel": "github:hokarimasahiro/pxt-neopixel#218cbba299c0e7238e93906c15b955840691ab7e",
+        "pxt-getradiogroup": "github:hokarimasahiro/pxt-getradiogroup#c00212ab9efc19ecc7da41070ec4a4a557bbbc76"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
